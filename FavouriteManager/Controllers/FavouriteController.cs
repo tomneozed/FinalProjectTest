@@ -12,6 +12,7 @@ namespace FavouriteManager.Controllers
         public FavouriteController(IFavouriteService favouriteService)
         {
             _favouriteService = favouriteService;
+            //some changes
         }
         [HttpGet("{id}")]
         public Favourite Test(int id)
