@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      Solution_Name: FavouriteManager.sln                                 #   Replace with your solution name, i.e. MyWpfApp.sln.
+      Solution_Name: FinalProjectTest/FavouriteManager/FavouriteManager.sln                                 #   Replace with your solution name, i.e. MyWpfApp.sln.
 
     steps:
     - uses: actions/checkout@v3
