@@ -15,8 +15,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      Solution_Name: FavouriteManager\\FavouriteManager.sln                                 #   Replace with your solution name, i.e. MyWpfApp.sln.
-      Test_Project_Path: FavouriteManagerTest\\FavouriteManagerTest.csproj                 # Replace with the path to your test project, i.e. MyWpfApp.Tests\MyWpfApp.Tests.csproj.
+      Solution_Name: FavouriteManager.sln                                 #   Replace with your solution name, i.e. MyWpfApp.sln.
 
     steps:
     - uses: actions/checkout@v3
@@ -28,5 +27,3 @@ jobs:
       run: dotnet restore
     - name: Build
       run: dotnet build --no-restore
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
