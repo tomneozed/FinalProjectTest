@@ -15,7 +15,7 @@ jobs:
     runs-on: windows-latest
 
      env:
-      solution_name: FavouriteManager/FavouriteManager.sln                         # Replace with your solution name, i.e. MyWpfApp.sln.
+      Solution_Name: FavouriteManager/FavouriteManager.sln                         # Replace with your solution name, i.e. MyWpfApp.sln.
       Test_Project_Path: FavouriteManagerTest/FavouriteManagerTest.csproj
 
     steps:
